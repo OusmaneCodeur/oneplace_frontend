@@ -1,0 +1,20 @@
+.checkout-page .card {
+  border-radius: 12px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.checkout-page .card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.checkout-summary {
+  position: sticky;
+  top: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .checkout-summary {
+    position: static;
+  }
+}

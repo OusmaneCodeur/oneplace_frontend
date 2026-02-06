@@ -1,0 +1,77 @@
+/* Base nav */
+.oneplace-nav .nav-link {
+    position: relative;
+    font-weight: 500;
+    color: #1f2937; /* gris foncé lisible */
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+}
+
+/* Hover animation (underline) */
+.oneplace-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+/* Hover general */
+.oneplace-nav .nav-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Active link */
+.active-link {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+.active-link::after {
+    width: 60%;
+    background-color: #0d6efd;
+}
+
+/* Color variants */
+.nav-hover.blue:hover {
+    color: #0d6efd;
+}
+.nav-hover.blue:hover::after {
+    width: 60%;
+    background-color: #0d6efd;
+}
+
+.nav-hover.green:hover {
+    color: #198754;
+}
+.nav-hover.green:hover::after {
+    width: 60%;
+    background-color: #198754;
+}
+
+.nav-hover.orange:hover {
+    color: #fd7e14;
+}
+.nav-hover.orange:hover::after {
+    width: 60%;
+    background-color: #fd7e14;
+}
+
+.nav-hover.red:hover {
+    color: #dc3545;
+}
+.nav-hover.red:hover::after {
+    width: 60%;
+    background-color: #dc3545;
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+    .oneplace-nav .nav-link {
+        padding: 12px 16px;
+    }
+}

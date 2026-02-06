@@ -1,0 +1,26 @@
+.product-details-page .object-fit-cover {
+  object-fit: cover;
+}
+
+.product-details-qty .form-control {
+  font-weight: 600;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.product-details-services {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-details-qty .btn {
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-details-qty .btn:hover {
+  box-shadow: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.12);
+}
+
+.product-details-services:hover {
+  box-shadow: 0 0.35rem 0.85rem rgba(15, 23, 42, 0.08);
+}

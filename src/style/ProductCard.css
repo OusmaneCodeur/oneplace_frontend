@@ -1,0 +1,32 @@
+.product-card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.product-card-add-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.product-card-add-overlay .btn {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Petits effets sur les boutons principaux de carte produit */
+.product-card-hover .btn-primary {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.product-card-hover .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0.35rem 0.75rem rgba(13, 110, 253, 0.35);
+}

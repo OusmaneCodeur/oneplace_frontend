@@ -1,0 +1,17 @@
+.products-page .card {
+  border-radius: 12px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.products-page .card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.catalogue-sidebar .price-slider-wrap {
+  padding: 0 0.25rem;
+}
+
+.catalogue-sidebar .price-slider {
+  cursor: pointer;
+  accent-color: var(--bs-primary);
+}
