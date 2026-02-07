@@ -31,16 +31,16 @@ const Footer = () => {
                             Votre marketplace de confiance au Sénégal. Informatique, vêtements, sports et plus encore.
                         </p>
                         <div className="d-flex gap-2">
-                            <a href="#" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                            <a href="https://www.facebook.com/profile.php?id=100074248234500" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
                                 <FaFacebookF />
                             </a>
-                            <a href="#" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                            <a href="https://www.instagram.com/ous_jeeng/" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
                                 <FaInstagram />
                             </a>
-                            <a href="#" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                            <a href="/watshap" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
                                 <FaWhatsapp />
                             </a>
-                            <a href="#" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
+                            <a href="https://www.tiktok.com/@ous_dieng?is_from_webapp=1&sender_device=pc" className="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center">
                                 <FaTiktok />
                             </a>
                         </div>
